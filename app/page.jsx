@@ -81,14 +81,9 @@ export default function Portfolio() {
 
         <TypeAnimation
           sequence={[
-            "Web Designer",
+            "Full Java Developer",
             2000,
             "Frontend Developer",
-            2000,
-            "WordPress Expert",
-            2000,
-            "Next.js Enthusiast",
-            2000,
           ]}
           wrapper="span"
           speed={50}
