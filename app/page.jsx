@@ -46,7 +46,7 @@ export default function Portfolio() {
       <header className="fixed top-0 left-0 w-full bg-gradient-to-r from-blue-900 via-purple-900 to-indigo-900 text-white shadow-lg z-[999] backdrop-blur-md bg-opacity-90">
         <nav className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6 py-4">
           <h1 className="text-2xl font-bold text-center w-full md:w-auto mb-3 md:mb-0 tracking-wide">
-            Md Aiydin
+            Md Yousuf Alam
           </h1>
           <ul className="flex flex-wrap justify-center md:justify-end gap-4 md:gap-6 text-sm md:text-base font-semibold">
             {["Home", "About", "Skills", "Projects", "Tools & AI", "Contact"].map(
@@ -97,8 +97,8 @@ export default function Portfolio() {
         />
 
         <p className="text-sm md:text-base opacity-90 mt-4 max-w-lg">
-          Next.js | WordPress | Tailwind CSS | Bootstrap | HTML | CSS |
-          JavaScript | Elementor | Divi
+          Core Java | Advance Java | Spring | SpringBoot| SQL | HTML | CSS |
+          JavaScript 
         </p>
 
         {/* Skill Icons */}
@@ -120,7 +120,7 @@ export default function Portfolio() {
         {/* Buttons */}
         <div className="mt-8 flex flex-wrap gap-4 justify-center">
           <a
-            href="/pdf/md-aiydin-ansari-cv.pdf"
+            href="/pdf/md-yousuf-alam-cv.pdf"
             download
             className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg flex items-center gap-2 transition"
           >
