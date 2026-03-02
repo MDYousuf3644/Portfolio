@@ -83,7 +83,7 @@ export default function Portfolio() {
           sequence={[
             "Full Stack Java Developer",
             2000,
-            "Frontend Developer",
+            
           ]}
           wrapper="span"
           speed={50}
