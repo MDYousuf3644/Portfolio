@@ -363,7 +363,7 @@ export default function Portfolio() {
               <div className="p-3 rounded-full bg-gradient-to-r from-blue-700 via-purple-700 to-indigo-700 shadow-lg flex items-center justify-center w-12 h-12">
                 <FaPhoneAlt className="text-white text-xl" />
               </div>
-              <span className="font-medium ml-4 truncate">+91 </span>
+              <span className="font-medium ml-4 truncate">+917484888760 </span>
             </motion.a>
 
             <motion.a
