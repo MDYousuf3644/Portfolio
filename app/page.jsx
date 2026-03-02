@@ -173,19 +173,10 @@ export default function Portfolio() {
             </h2>
 
             <p className="text-lg text-gray-700 leading-relaxed">
-              Hello! I’m <b>Md Aiydin Ansari</b> — a <b>Web Designer</b> and{" "}
-              <b>Frontend Developer</b> with over <b>2 years of experience</b>{" "}
-              at Amr Softec and a <b>3-month professional training</b> in Web
-              Design from Base 2 Brand, Mohali.
-            </p>
+              Hello! I’m <b>Md Yousuf Alam</b> — a <b>Full Stack Java Developer</b> and Fresher passionate about building scalable and user-friendly web applications.
 
-            <p className="text-lg text-gray-700 leading-relaxed">
-              I specialize in creating elegant, user-friendly websites using{" "}
-              <b>WordPress, Elementor, Divi, and Next.js</b>. My focus is on
-              crafting visually appealing, responsive designs that deliver
-              exceptional user experiences.
+I have hands-on knowledge of Core Java, Advanced Java, Spring, Spring Boot, SQL, HTML, CSS, and JavaScript. I focus on writing clean, efficient code and developing responsive applications that deliver reliable performance and a smooth user experience.
             </p>
-
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
