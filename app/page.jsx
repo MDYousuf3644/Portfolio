@@ -81,7 +81,7 @@ export default function Portfolio() {
 
         <TypeAnimation
           sequence={[
-            "Full Java Developer",
+            "Full Stack Java Developer",
             2000,
             "Frontend Developer",
           ]}
