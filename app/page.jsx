@@ -150,8 +150,8 @@ export default function Portfolio() {
           >
             <div className="relative w-80 h-90 md:w-[500px] md:h-[500px] rounded-2xl overflow-hidden shadow-2xl group ring-4 ring-blue-200/40">
               <Image
-                src="/new-image/andaz.webp"
-                alt="Md Aiydin Ansari"
+                src="/new-image/yousuf.webp"
+                alt="Md Yousuf Alam"
                 fill
                 priority
                 sizes="(max-width: 768px) 80vw, 400px"
