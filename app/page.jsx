@@ -343,7 +343,7 @@ export default function Portfolio() {
 
           <div className="flex flex-col md:flex-row justify-center items-center gap-6">
             <motion.a
-              href="mailto:andazmd961@gmail.com"
+              href="mailto:mdyousuf36444@gmail.com"
               whileHover={{ scale: 1.05 }}
               className="flex items-center justify-start w-80 bg-white/10 hover:bg-white/20 transition p-4 rounded-2xl shadow-md backdrop-blur-sm hover:shadow-xl"
             >
@@ -351,23 +351,23 @@ export default function Portfolio() {
                 <FaEnvelope className="text-white text-xl" />
               </div>
               <span className="font-medium ml-4 truncate">
-                andazmd961@gmail.com
+                mdyousuf36444@gmail.com
               </span>
             </motion.a>
 
             <motion.a
-              href="tel:+916209681015"
+              href="tel:+917484888760"
               whileHover={{ scale: 1.05 }}
               className="flex items-center justify-start w-80 bg-white/10 hover:bg-white/20 transition p-4 rounded-2xl shadow-md backdrop-blur-sm hover:shadow-xl"
             >
               <div className="p-3 rounded-full bg-gradient-to-r from-blue-700 via-purple-700 to-indigo-700 shadow-lg flex items-center justify-center w-12 h-12">
                 <FaPhoneAlt className="text-white text-xl" />
               </div>
-              <span className="font-medium ml-4 truncate">+91 6209681015</span>
+              <span className="font-medium ml-4 truncate">+91 </span>
             </motion.a>
 
             <motion.a
-              href="https://www.linkedin.com/in/md-aiydin-ansari-b5b017262/?originalSubdomain=in"
+              href="https://www.linkedin.com/in/md-yousuf-alam-375545307?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BKGqx%2FksvRX2n35mQQAbrcw%3D%3D"
               target="_blank"
               whileHover={{ scale: 1.05 }}
               className="flex items-center justify-start w-80 bg-white/10 hover:bg-white/20 transition p-4 rounded-2xl shadow-md backdrop-blur-sm hover:shadow-xl"
@@ -382,7 +382,7 @@ export default function Portfolio() {
           </div>
 
           <p className="mt-16 text-blue-200 text-sm">
-            © {new Date().getFullYear()} Md Aiydin Ansari. All rights reserved.
+            © {new Date().getFullYear()} Md Yousuf Alam. All rights reserved.
           </p>
         </div>
       </section>
