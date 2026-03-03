@@ -1,43 +1,44 @@
 "use client";
 import { motion } from "framer-motion";
-import { FaArrowRight, FaGlobe, FaDownload, FaLinkedin, FaPhoneAlt, FaEnvelope, FaPalette } from "react-icons/fa";
+import { FaArrowRight, FaGlobe, FaDownload, FaLinkedin, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+
 import {
   FaHtml5,
   FaCss3Alt,
-  FaBootstrap,
-  FaWordpress,
   FaJs,
+  FaJava,
+  FaDatabase,
 } from "react-icons/fa";
+
 import {
-  SiTailwindcss,
-  SiNextdotjs,
-  SiElementor,
-  SiVercel,
-  SiFilezilla,
-  SiGooglegemini,
+  SiSpringboot,
+  SiMysql,
+  SiHibernate,
+  SiPostman,
+  SiGithub,
 } from "react-icons/si";
+
 import { TypeAnimation } from "react-type-animation";
 import Image from "next/image";
 
 export default function Portfolio() {
   const skills = [
+    { Icon: FaJava, name: "Core Java", color: "from-red-500 to-orange-600" },
+    { Icon: FaJava, name: "Advanced Java", color: "from-red-600 to-red-800" },
+    { Icon: SiSpringboot, name: "Spring Boot", color: "from-green-500 to-green-700" },
+    { Icon: SiHibernate, name: "Hibernate", color: "from-yellow-500 to-orange-500" },
+    { Icon: FaDatabase, name: "SQL", color: "from-blue-500 to-indigo-700" },
+    { Icon: SiMysql, name: "MySQL", color: "from-blue-600 to-blue-900" },
     { Icon: FaHtml5, name: "HTML", color: "from-orange-500 to-red-500" },
     { Icon: FaCss3Alt, name: "CSS", color: "from-blue-500 to-blue-700" },
-    { Icon: FaBootstrap, name: "Bootstrap", color: "from-purple-500 to-indigo-600" },
-    { Icon: SiTailwindcss, name: "Tailwind CSS", color: "from-cyan-400 to-blue-500" },
-    { Icon: SiNextdotjs, name: "Next.js", color: "from-gray-700 to-gray-900" },
-    { Icon: FaWordpress, name: "WordPress", color: "from-blue-700 to-blue-900" },
-    { Icon: SiElementor, name: "Elementor", color: "from-pink-500 to-rose-500" },
-    { Icon: FaPalette, name: "Divi", color: "from-fuchsia-500 to-pink-600" },
     { Icon: FaJs, name: "JavaScript", color: "from-yellow-400 to-yellow-600" },
   ];
 
   const tools = [
-    { Icon: SiFilezilla, name: "FileZilla", color: "from-orange-400 to-red-500" },
-    { Icon: SiVercel, name: "Vercel", color: "from-gray-700 to-black" },
-    { Icon: SiGooglegemini, name: "Gemini", color: "from-blue-400 to-purple-600" },
-    { Icon: FaWordpress, name: "WordPress", color: "from-blue-600 to-indigo-700" },
-    { Icon: FaJs, name: "JavaScript", color: "from-yellow-400 to-yellow-600" },
+    { Icon: SiPostman, name: "Postman", color: "from-orange-400 to-red-500" },
+    { Icon: SiGithub, name: "GitHub", color: "from-gray-700 to-black" },
+    { Icon: SiMysql, name: "MySQL", color: "from-blue-600 to-blue-900" },
+    { Icon: FaJava, name: "Java", color: "from-red-500 to-orange-600" },
   ];
 
   return (
