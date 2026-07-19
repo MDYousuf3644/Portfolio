@@ -116,7 +116,7 @@ export default function Portfolio() {
         {/* Buttons */}
         <div className="mt-8 flex flex-wrap gap-4 justify-center">
           <a
-            href="/pdf/md-yousuf-alam-cv.pdf"
+            href="/pdf/nResume.pdf"
             download
             className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg flex items-center gap-2 transition"
           >
